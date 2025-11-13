@@ -1,3 +1,7 @@
+Nextjs
+//Crear proyecto nextjs
+1)npx create-next-app@latest name-proyect
+
 Docker
 
 // Construye una imagen Docker usando el Dockerfile en el directorio actual y la etiqueta como "nextjs-first-steps"
