@@ -1,0 +1,7 @@
+Docker
+
+// Construye una imagen Docker usando el Dockerfile en el directorio actual y la etiqueta como "nextjs-first-steps"
+1) docker build -t nextjs-first-steps .
+
+// Ejecuta un contenedor en segundo plano, mapeando el puerto 3000 maquina al 3000 del contenedor, usando la imagen "nextjs-first-steps"
+2) docker container run -dp 3001:3000 nextjs-first-steps
