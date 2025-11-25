@@ -1,11 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import { IoLogoReact, IoBarChart  } from "react-icons/io5";
+import { IoLogoReact, IoBarChart, IoBowlingBallSharp  } from "react-icons/io5";
 import { SidebarMenuItem } from './SidebarMenuItem';
 
 const MenuItems = [
     { path: '/dashboard/dashboard', icon: <IoBarChart  />, title: 'Dashboard', subTitle: 'Estadisticas' },
      { path: '/dashboard/counter', icon: <IoLogoReact />, title: 'Counter', subTitle: 'Contador del Cliente' }, 
+     { path: '/dashboard/pokemons', icon: <IoBowlingBallSharp />, title: 'Pokemons', subTitle: 'Listado de Pokemones' }, 
 ];         
 export const Sidebar = () => {
     return (

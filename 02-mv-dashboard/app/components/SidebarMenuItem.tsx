@@ -10,7 +10,7 @@ interface Props {
 }
 export const SidebarMenuItem = ({ path, icon, title, subTitle }: Props) => {
     const pathname = usePathname()
-    const isActive = pathname === path;
+    const isActive = pathname == path;
     return (
         <a
             href={path}
@@ -26,4 +26,4 @@ export const SidebarMenuItem = ({ path, icon, title, subTitle }: Props) => {
             </div>
         </a>
     );
-}   
+}

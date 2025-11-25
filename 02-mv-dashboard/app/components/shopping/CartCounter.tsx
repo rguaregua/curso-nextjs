@@ -5,6 +5,7 @@ interface CartCounterProps {
     value?: number;
 }
 
+
 export const CartCounter = ({value = 10}: CartCounterProps) => {
     const [counter, setCounter] = useState(value);
     return (
@@ -16,4 +17,4 @@ export const CartCounter = ({value = 10}: CartCounterProps) => {
                 </div>
             </>
     )
-}                   
+}
