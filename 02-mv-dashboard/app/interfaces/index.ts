@@ -1,0 +1,1 @@
+export type {Pokemon, PokemonListResponse} from './pokemons/pokemon';
