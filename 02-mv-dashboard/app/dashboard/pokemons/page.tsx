@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Pokemons",
+  title: "Listasdo de Pokemons",
   description: "Listado de Pokemones"
 };
 
